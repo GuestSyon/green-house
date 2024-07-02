@@ -1,0 +1,65 @@
+
+/* .side-right {right: -340px; width: 320px;} */
+.side-right {right: -320px; width: 300px;}
+.side-bar.side-right .side-show-wrapper .side-show-inner {width: 40px;}
+.side-bar.side-right .side-show-wrapper .side-show-inner img {transform: rotate(180deg);width: auto;}
+.side-bar.side-right.show .side-show-wrapper .side-show-inner img {transform: rotate(0deg);}
+.side-right.show {right: 0 !important;}
+
+.side-right .logo-title .left-wrapper {flex: 1;}
+
+.side-right .logo-title .icon-wrapper {margin-right: 15px; cursor: pointer; transition: all 0.3s; opacity: 0.8; display: flex; align-items: center; justify-content: center;}
+.side-right .logo-title .icon-wrapper img {width: 100%; height: 100%;}
+.side-right .logo-title .icon-wrapper:hover {transform: scale(1.1); opacity: 1;}
+
+.side-right .logo-title .help-wrapper {width: 30px; height: 30px; border-radius: 50%; border: 2px solid;}
+.side-right .logo-title .help-wrapper label {font-size: 20px; font-weight: 700; cursor: pointer;}
+
+.side-right .logo-title .reset-wrapper {width: 35px; height: 35px;}
+.side-right .logo-title .camera-wrapper {width: 42px; height: 32px;}
+
+.side-right .side-show-wrapper .side-show-inner {left: -48px; border-right: 1px solid #AAAAAA;}
+.side-right.show .side-show-wrapper .side-show-inner {left: -10px;}
+
+.side-right      .side-show-wrapper .side-show-inner:hover img {margin-right: 15px;}
+.side-right.show .side-show-wrapper .side-show-inner:hover img {margin-right: -15px;}
+
+/* sub wrapper height */
+
+.object-list-wrapper {margin-left: 10px; width: calc(100% - 11px); height: calc(100vh - 550px); border-top: 1px solid #888888;}
+.object-list-wrapper * {font-size: 14px;}
+.object-list-wrapper .object-row {display: flex; border-bottom: 1px solid #888888; height: 30px;}
+.object-list-wrapper .object-row.active {background-color: #88DDFF;}
+.object-list-wrapper .object-row div {display: flex; justify-content: center; align-items: center; border-right: 1px solid #888888; padding: 5px 0px;}
+.object-list-wrapper .object-row div:first-child {border-left: 1px solid #888888;}
+.object-list-wrapper .object-list-header * {font-weight: 700;}
+.object-list-wrapper .object-row .cell-no {width: 20px;  cursor: pointer;}
+.object-list-wrapper .object-row .cell-name {width: 90px; cursor: pointer;}
+.object-list-wrapper .object-row .cell-pos {width: 85px; cursor: pointer;}
+.object-list-wrapper .object-row .cell-pos label {flex: 1; margin-left: 5px;}
+.object-list-wrapper .object-row .cell-rot {width: 40px; cursor: pointer;}
+.object-list-wrapper .object-row .cell-del {width: 30px; cursor: pointer;}
+.object-list-wrapper .object-row img {width: 20px; height: 20px;}
+
+.sub-wrapper .sub-interval {clear: both;}
+.main-chooseVegetable .sub-wrapper .sub-title {margin-top: 10px;}
+.crop-wrapper {display: inline;}
+.crop-wrapper .button {background: none; color: black; font-size: 16px; border: 1px solid #666; margin: 4px 4px; padding: 8px 9px; font-weight: 500; border-radius: 4px; display: inline-block; transition: all 0.3s; background-color: white;}
+.crop-wrapper .button * {cursor: pointer;}
+.crop-wrapper .button:hover{border-color: blue; color: blue;}
+.crop-wrapper .button.active{border-color: red; color: red;}
+.crop-wrapper .button img {width: 30px; height: 30px;}
+
+.fish-wrapper {width: 100%;}
+.fish-wrapper .fish-item {flex: 1; margin: 15px 10px 0px 10px; text-align: center; border-bottom: 1px solid #666; padding-bottom: 3px; background-color: white; padding: 0px 10px;}
+.fish-wrapper .fish-item.active {border-color: red; color: red;}
+.fish-wrapper .fish-item img  {height: 50px; margin-left: 10px;}
+
+/* .side-footer */
+
+
+
+.mobile .side-bar.side-right {width: calc(100vw - 20px); right: -100vw;}
+.mobile .side-bar.side-right {width: calc(100vw - 20px); right: -100vw;}
+.mobile .side-footer {margin-bottom: 70px;}
+/* .mobile .side-bar.side-right.show {width: calc(100vw - 20px); right: -100vw;} */

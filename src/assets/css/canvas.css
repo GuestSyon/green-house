@@ -1,0 +1,18 @@
+
+.canvas { position: fixed; width: 100vw; height: 100vh; z-index: -1; transition: left 0.5s; }
+
+#testCanvas { position: absolute; top: 0; left: 0; z-index: -1;}
+
+#resetImage {position: absolute; width: 1000px; height: 1000px; z-index: -1; background-color: white;}
+
+.setting {position: absolute; top: 20px; left: 20px;}
+.setting select {font-size: 20px;}
+.setting .set-item {padding: 5px 20px; border: 1px solid; border-radius: 5px; cursor: pointer; margin: 15px; background-color: white;}
+.setting .set-item .set-title {margin-bottom: 5px; font-size: 20px; font-weight: 700;}
+.setting .set-item .set-line {display: flex; margin: 5px 0px;}
+.setting .set-item .set-line .set-label {width: 60px;}
+.setting .set-item .set-line input {flex: 1;}
+
+.btn {margin: 15px; padding: 5px 20px; border-radius: 5px; cursor: pointer; border: 1px solid; background-color: white;}
+
+.test-frame {width: 80vh; height: 80vh; border: 1px solid; position: fixed; top: 10vh;}

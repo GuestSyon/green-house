@@ -1,0 +1,35 @@
+
+.modal-back {position: absolute; top: 0; left: 0; width: 100vw; height: 100vh; z-index: -1; display: flex; align-items: center; justify-content: center; overflow: hidden;}
+.modal-back.active {background-color: rgba(0, 0, 0, 0.2); z-index: 3!important;}
+.modal-back .modal-wrapper {position: relative; padding: 20px; transition: all 0.5s; opacity: 0; box-shadow: 0px 3px 6px #00000029; background-color: #FFFFFF;}
+.modal-back .modal-wrapper.active { margin: 0px; opacity: 1; transform:scale(1);}
+.modal-back .modal-wrapper .button {width: 120px;}
+
+/* .modal-wrapper * {font-size: 16px; color: #525047;} */
+.modal-wrapper .modal-title { text-align: center; font-size: 24px; margin-bottom: 12px; min-height: 24px; font-weight: 700;}
+.modal-wrapper .content {margin-top: 20px;}
+
+.detail-modal .modal-wrapper { flex-direction: column; width: 760px; margin-top: 50vh; } /* height: 520px; */
+.detail-modal .modal-title {margin-right: 70px;}
+.detail-modal .modal-content {display: flex;}
+.modal-content .content-side {flex: 1;}
+.modal-content .info-item {margin-top: 20px; margin-bottom: 10px;}
+.modal-content .info-item .info-title {font-size: 17px; font-weight: 700;}
+.modal-content .info-item .info-content {margin-left: 10px; margin-top: 10px;}
+.modal-content .info-item .info-content .sub-item {display: flex; margin: 8px; padding-left: 10px; padding-bottom: 3px; border-bottom: 1px solid #AAAAAA; width: 80%;}
+.modal-content .info-item .info-content .sub-item .sub-label {width: 200px;}
+.modal-content .info-item .info-content .sub-item .sub-value {color: #000066;}
+
+.help-modal .modal-wrapper { width: 860px; height: 600px; }
+.help-modal .modal-content { height: calc(100% - 60px); }
+.help-modal .help-item {margin-top: 20px;}
+.help-modal .help-item .help-title {font-size: 20px; font-weight: 700; margin-bottom: 5px;}
+.help-modal .help-item .help-info {margin-left: 10px;}
+.help-modal .help-item .help-info .help-value {margin: 5px 0px;}
+.help-modal .help-item .help-info .sub-wrapper {margin-left: 10px;}
+.help-modal .help-item .help-info .sub-wrapper .sub-item {margin: 3px 0px; display: flex; align-items: center;}
+.help-modal .help-item .help-info .sub-wrapper .sub-item .point {width: 4px; height: 4px; border-radius: 50%; background-color: black; margin: 0px 7px;}
+.help-modal .help-item .help-info .sub-wrapper .sub-item {font-size: 15px;}
+
+.mobile .modal-back .modal-wrapper {height: auto; margin-bottom: 50px;}
+.mobile .modal-back .modal-wrapper .modal-content {flex-direction: column; height: calc(100vh - 190px);}

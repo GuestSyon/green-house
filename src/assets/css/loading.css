@@ -1,0 +1,9 @@
+.loading { background-color: rgba(0, 0, 0, 0.5); opacity: 0; transition: all 0.5s;}
+.loading.show { opacity: 1; z-index: 2;}
+.loading .loading-circle { position: absolute; top: calc(50% - 60px); left: calc(50% - 60px); border: 16px solid #f3f3f3; border-top: 16px solid #3437ee99; border-radius: 50%; width: 90px; height: 90px; animation: spin 2s linear infinite; }
+.loading .loading-circle.grey { border: 6px solid #444; border-top: 6px solid white; }
+
+.loading .loading-label {font-size: 28px; color: white;}
+.loading.active {z-index: 4;}
+
+@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
